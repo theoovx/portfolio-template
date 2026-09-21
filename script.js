@@ -77,33 +77,27 @@ enterBtn.addEventListener("click", () => {
 const projects = [
 
   {
-    id: "ac",
+    id: "contoh-1",
 
-    category: "PKL",
+    category: "Kategori1",
 
-    title: "Maintenance AC",
+    title: "Judul Project 1",
 
     description:
-      "Melakukan perawatan AC indoor dan outdoor, termasuk membantu proses pemeriksaan, pembersihan, dan memastikan unit tetap bekerja dengan baik selama kegiatan Engineering.",
+      "Deskripsi singkat tentang project ini — apa yang dikerjakan dan konteksnya.",
 
     media: [
 
       {
         type: "image",
-        src: "pkl-maintenance-ac-2.jpg",
-        label: "Perawatan AC"
+        src: "assets/projects/project-1-a.jpg",
+        label: "Foto 1"
       },
 
       {
         type: "image",
-        src: "pkl-maintenance-ac-outdoor.jpg",
-        label: "Perawatan AC outdoor"
-      },
-
-      {
-        type: "image",
-        src: "pkl-maintenance-ac.jpg",
-        label: "Maintenance AC"
+        src: "assets/projects/project-1-b.jpg",
+        label: "Foto 2"
       }
 
     ]
@@ -112,27 +106,21 @@ const projects = [
 
 
   {
-    id: "lighting",
+    id: "contoh-2",
 
-    category: "PKL",
+    category: "Kategori1",
 
-    title: "Penerangan",
+    title: "Judul Project 2",
 
     description:
-      "Mengerjakan instalasi dan perbaikan penerangan di area fasilitas, mulai dari pemasangan jalur lampu pada tangga hingga pemasangan lampu sorot.",
+      "Deskripsi singkat tentang project ini — apa yang dikerjakan dan konteksnya.",
 
     media: [
 
       {
         type: "image",
-        src: "pkl-memahat-dan-memasang-penerangan-ditangga.jpg",
-        label: "Penerangan tangga"
-      },
-
-      {
-        type: "image",
-        src: "pkl-pemasangan-lampu-sorot.jpg",
-        label: "Pemasangan lampu sorot"
+        src: "assets/projects/project-2-a.jpg",
+        label: "Foto 1"
       }
 
     ]
@@ -141,113 +129,21 @@ const projects = [
 
 
   {
-    id: "network",
+    id: "contoh-3",
 
-    category: "PKL",
+    category: "Kategori2",
 
-    title: "Jaringan & PJU",
-
-    description:
-      "Membantu perbaikan jaringan internet serta pekerjaan pada penerangan jalan umum, termasuk penanganan jalur dan instalasi yang diperlukan di area fasilitas.",
-
-    media: [
-
-      {
-        type: "image",
-        src: "pkl-memperbaiki-jaringan-internet-dan-penerangan-jalan.jpg",
-        label: "Jaringan internet dan PJU"
-      }
-
-    ]
-
-  },
-
-
-  {
-    id: "support",
-
-    category: "PKL",
-
-    title: "Dukungan Engineering",
+    title: "Judul Project 3",
 
     description:
-      "Mengerjakan berbagai pekerjaan pendukung untuk menjaga kondisi fasilitas tetap terawat, termasuk pekerjaan pengecatan pada area yang membutuhkan perawatan.",
-
-    media: [
-
-      {
-        type: "image",
-        src: "pkl-mengecat.jpg",
-        label: "Pekerjaan pengecatan"
-      }
-
-    ]
-
-  },
-
-
-  {
-    id: "grounding",
-
-    category: "BBPVP",
-
-    title: "Pengecekan Grounding",
-
-    description:
-      "Mempelajari cara melakukan pengecekan grounding sebagai bagian dari sistem keselamatan kelistrikan bangunan dan memahami pentingnya jalur pembumian yang baik.",
-
-    media: [
-
-      {
-        type: "image",
-        src: "bbpvp-mempelajari-tentang-pengecekan-grounding.jpg",
-        label: "Pengecekan grounding"
-      }
-
-    ]
-
-  },
-
-
-  {
-    id: "k3",
-
-    category: "BBPVP",
-
-    title: "K3",
-
-    description:
-      "Mempelajari penerapan keselamatan dan kesehatan kerja sebelum dan selama praktik, termasuk mengenali potensi bahaya serta bekerja dengan prosedur yang lebih aman.",
-
-    media: [
-
-      {
-        type: "image",
-        src: "bbpvp-mempelajari-tentang-k3.jpg",
-        label: "K3"
-      }
-
-    ]
-
-  },
-
-
-  {
-    id: "smart",
-
-    category: "BBPVP",
-
-    title: "Smart Building",
-
-    description:
-      "Mempraktikkan pemasangan komponen smart building dan menghubungkan sistem agar perangkat dapat dikontrol melalui HP sebagai bagian dari integrasi bangunan cerdas.",
+      "Deskripsi singkat tentang project ini. Bisa juga pakai video, lihat contoh media type di bawah.",
 
     media: [
 
       {
         type: "video",
-        src: "bbpvp-video-memasang-komponen-smart-building-bisa-dikontrol-dengan-hp.mp4",
-        label: "Smart building"
+        src: "assets/projects/project-3-video.mp4",
+        label: "Video demo"
       }
 
     ]
